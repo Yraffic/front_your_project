@@ -10,6 +10,7 @@ export const Layout = ({children}: any )=>{
         flexDirection='column'
         width='100vw'
         height='100vh'
+        background='#38B2AC;'
       >
         <Header/>
         {children}
