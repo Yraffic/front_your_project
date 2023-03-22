@@ -14,9 +14,9 @@ export const Login = ()=>{
           >
             Login
           </Text>
-          <Input variant='flushed' placeholder='Nome de Usuario' />
+          <Input variant='flushed' placeholder='Nome de Usuario' minWidth='20rem'/>
           <Input variant='flushed' placeholder='Senha' />
-          <ButtonApp name="Entrar" color="white"/>
+          <ButtonApp name="Entrar" color="white" size="lg"/>
         </Card>
       </Layout>
     );

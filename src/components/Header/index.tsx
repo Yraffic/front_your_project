@@ -1,7 +1,12 @@
-import { Box, Text, CloseButton } from "@chakra-ui/react"
+import { Box, Text } from "@chakra-ui/react"
+import { useState } from "react"
+import { ButtonApp } from "../Button"
+
 
 
 export const Header = ()=>{
+    const [showBtn, setShowBtn] = useState(false)
+
     return(
         <Box
             display='flex'
@@ -22,7 +27,14 @@ export const Header = ()=>{
             >
                 Your Projects
             </Text>
-            <CloseButton />
+            {
+                showBtn &&
+                <ButtonApp 
+                    name="sair" 
+                    color="grey"
+                    size="lg"
+                />
+            }
         </Box>
     )
 }
