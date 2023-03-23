@@ -9,7 +9,7 @@ export const Layout = ({children}: any )=>{
         flexDirection='column'
         width='100vw'
         height='100vh'
-        backgroundColor='gray.100'
+        backgroundColor='teal'
         padding='1rem'
       >
         <Header/>
